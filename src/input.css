@@ -19,7 +19,7 @@
     --font-DanaDemiBold : "Dana DemiBold";
    
    
-       --color-red-regal :  "#CB1B1B"
+       --color-red-regal :  "#444"
 }
 @layer utilities {
     svg {
@@ -27,5 +27,9 @@
         height: 24px;
     }
 }
+@utility container {
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
 
 
