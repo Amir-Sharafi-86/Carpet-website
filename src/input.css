@@ -19,7 +19,13 @@
     --font-DanaDemiBold : "Dana DemiBold";
    
    
-       --color-main  : "#CB1B1B";
+       --color-red-regal :  "#CB1B1B"
+}
+@layer utilities {
+    svg {
+        width: 24px;
+        height: 24px;
+    }
 }
 
 
