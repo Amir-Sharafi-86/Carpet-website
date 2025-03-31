@@ -354,6 +354,12 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
+  .mt-\[92px\] {
+    margin-top: 92px;
+  }
+  .mr-\[96px\] {
+    margin-right: 96px;
+  }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
@@ -742,6 +748,12 @@
   }
   .auto-rows-min {
     grid-auto-rows: min-content;
+  }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
   .grid-cols-none {
     grid-template-columns: none;
@@ -1932,6 +1944,16 @@
   }
   .transform-view {
     transform-box: view-box;
+  }
+  .lg\:col-span-4 {
+    @media (width >= 64rem) {
+      grid-column: span 4 / span 4;
+    }
+  }
+  .lg\:col-span-8 {
+    @media (width >= 64rem) {
+      grid-column: span 8 / span 8;
+    }
   }
 }
 @layer base {
