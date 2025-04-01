@@ -12,9 +12,9 @@
         <svg id="search" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>          
-        <svg id="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-          </svg>          
+          <svg  id="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+          </svg>                   
           <svg id="shopping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
           </svg> 
@@ -49,11 +49,11 @@
                      </button>
                  </div>
                  <div class="text-[#CB1B1B]">
-                     <button class="bg-transparent border border-[#CB1B1B] rounded-xl inline-flex justify-center items-center h-12 w-[153px] ">
+                     <button class="bg-transparent border border-[#CB1B1B] rounded-xl inline-flex justify-center items-center p-[11.5px] w-[153px]  gap-x-2">
                          <svg>
                              <use href="#arrow-down"></use>
                          </svg>
-                         <span>ورود/ثبت نام</span>
+                         <span class="pb-2">ورود/ثبت نام</span>
                      </button>
                  </div>
              </div>
@@ -77,7 +77,7 @@
      </header>
      <hr>
 
-     <main class="max-w-[1224px] mx-auto min-h-screen overflow-x-hidden">
+     <main class="max-w-[1224px] mx-auto min-h-screen ">
        <!-- section 1  -->
       <section class="mt-[92px]">
         <div class="container ">
@@ -130,10 +130,10 @@
         <div class="container">
           <div class="text-[#CB1B1B] flex justify-between items-center  mx-auto mb-8">
             <p class="text-[#121212] font-DanaDemiBold text-2xl max-sm:text-base">فرش های دستبافت</p>
-            <button class="bg-transparent flex items-center gap-x-2 text-lg">
+            <button class="bg-transparent flex justify-center items-end gap-x-2 text-lg  border border-[#CB1B1B] w-[165px] p-[9.2px]  rounded-xl">
               مشاهده  همه
-              <svg>
-                <use href="#arrow-down"></use>
+              <svg class="">
+                <use href="#arrow"></use>
               </svg>
             </button>
           </div>
@@ -191,9 +191,101 @@
               <button class="border border-[#CB1B1B] text-[#CB1B1B] bg-transparent p-2 rounded-xl">مشاهده بیشتر</button>
             </div>
           </div>
-
         </div>
       </section>
+
+
+
+      <section class="mb-[120px]">
+        <div class="container">
+          <div class="text-[#CB1B1B] flex justify-between items-center  mx-auto mb-8">
+            <p class="text-[#121212] font-DanaDemiBold text-2xl max-sm:text-base">فرش های ماشینی</p>
+            <button class="bg-transparent flex justify-center items-end gap-x-2 text-lg  border border-[#CB1B1B] w-[165px] p-[9.2px]  rounded-xl">
+              مشاهده  همه
+              <svg class="">
+                <use href="#arrow"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <div class="product flex flex-col bg-white rounded-xl border border-[#D9D9D9] p-4">
+              <div>
+                <img src="./imges/main/section/section-product (1).png" class="mx-auto"  alt="">
+              </div>
+              <div class=" text-[#121212] ">
+                <p class="text-lg max-sm:text-sm font-DanaDemiBold mb-4 max-w-[255px]">فرش ماشینی فرش ماهساره طرح آترینا زمینه آبی </p>
+                <div class="flex justify-between items-center font-DanaMedium text-lg mb-6">
+                  <span>قیمت</span>
+                  <span>۱۳/۵۰۰/۰۰۰ تومان</span>
+                </div>
+              </div>
+              <button class="border border-[#CB1B1B] text-[#CB1B1B] bg-transparent p-2 rounded-xl">مشاهده بیشتر</button>
+            </div>
+            <div class="product flex flex-col bg-white rounded-xl border border-[#D9D9D9] p-4">
+              <div>
+                <img src="./imges/main/section/section-product (2).png" class="mx-auto"  alt="">
+              </div>
+              <div class=" text-[#121212] ">
+                <p class="text-lg max-sm:text-sm font-DanaDemiBold mb-4 max-w-[255px]">فرش کهن  دست بافت سهند زمینه سرمه ای </p>
+                <div class="flex justify-between items-center font-DanaMedium text-lg mb-6">
+                  <span>قیمت</span>
+                  <span>۲۳۳/۰۰۰ تومان</span>
+                </div>
+              </div>
+              <button class="border border-[#CB1B1B] text-[#CB1B1B] bg-transparent p-2 rounded-xl">مشاهده بیشتر</button>
+            </div>
+            <div class="product flex flex-col bg-white rounded-xl border border-[#D9D9D9] p-4">
+              <div>
+                <img src="./imges/main/section/section-product (3).png" class="mx-auto"  alt="">
+              </div>
+              <div class=" text-[#121212] ">
+                <p class="text-lg max-sm:text-sm font-DanaDemiBold mb-4 max-w-[255px]">فرش دست بافت نگین مشهد زمینه فیلی </p>
+                <div class="flex justify-between items-center font-DanaMedium text-lg mb-6">
+                  <span>قیمت</span>
+                  <span>۲۳۳/۰۰۰ تومان</span>
+                </div>
+              </div>
+              <button class="border border-[#CB1B1B] text-[#CB1B1B] bg-transparent p-2 rounded-xl">مشاهده بیشتر</button>
+            </div>
+            <div class="product flex flex-col bg-white rounded-xl border border-[#D9D9D9] p-4">
+              <div>
+                <img src="./imges/main/section/section-product (4).png" class="mx-auto"  alt="">
+              </div>
+              <div class=" text-[#121212] ">
+                <p class="text-lg max-sm:text-sm font-DanaDemiBold mb-4 max-w-[255px]">فرش کهن  دست بافت سهند زمینه سرمه ای </p>
+                <div class="flex justify-between items-center font-DanaMedium text-lg mb-6">
+                  <span>قیمت</span>
+                  <span>۲۳۳/۰۰۰ تومان</span>
+                </div>
+              </div>
+              <button class="border border-[#CB1B1B] text-[#CB1B1B] bg-transparent p-2 rounded-xl">مشاهده بیشتر</button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="flex items-center  flex-wrap lg:flex-nowrap justify-center ">
+            <!-- right  -->
+            <div class="text-[44px] max-md:text-2xl font-DanaMedium ">
+              <h2>عضویت در باشگاه مشتریان
+                ایـــرانی فرش</h2>
+                <span class="text-[#CB1B1B]">ایرانی فرش</span>
+                <p class="mt-[21px] text-xl max-w-[423px]">با عضویت در باشگاه مشتریان ایرانــی فرش زودتر از تخفیفات
+                   با خبر شوید و از امکان تحویل رایگان فرش های خود بهره مند
+                    شوید.</p>
+                <button class="p-3 w-[432px] rounded-xl text-lg border border-[#CB1B1B] text-[#CB1B1B] font-DanaDemiBold  ">ایجاد عضویت</button>
+            </div>
+            <!-- left -->
+             <div class="lg:mr-[140px]  max-lg:order-first">
+              <img src="./imges/main/section two/Frame 1261153400 (1).png" alt="">
+             </div>
+          </div>
+        </div>
+      </section>
+
 
       </main>
 </body>
