@@ -356,6 +356,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-\[21px\] {
+    margin-block: 21px;
+  }
   .my-\[120px\] {
     margin-block: 120px;
   }
