@@ -10,6 +10,7 @@
     --color-red-950: oklch(0.258 0.092 26.042);
     --color-teal-50: oklch(0.984 0.014 180.72);
     --color-gray-500: oklch(0.551 0.027 264.364);
+    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-xs: 0.75rem;
@@ -40,6 +41,7 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --font-Dana: "Dana";
     --font-DanaMedium: "Dana Medium";
     --font-DanaDemiBold: "Dana DemiBold";
   }
@@ -1704,6 +1706,9 @@
   .align-top {
     vertical-align: top;
   }
+  .font-Dana {
+    font-family: var(--font-Dana);
+  }
   .font-DanaDemiBold {
     font-family: var(--font-DanaDemiBold);
   }
@@ -1854,6 +1859,12 @@
   }
   .text-\[\#CB1B1B\] {
     color: #CB1B1B;
+  }
+  .text-\[BLACK\] {
+    color: BLACK;
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-gray-500 {
     color: var(--color-gray-500);
