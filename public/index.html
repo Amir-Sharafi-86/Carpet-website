@@ -14,7 +14,11 @@
           </svg>          
           <svg  id="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-          </svg>                   
+          </svg>
+          <svg id="shopping-cart" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>
+                             
           <svg id="shopping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
           </svg> 
@@ -25,7 +29,7 @@
     </symbol>
 </svg>
     <!-- header -->
-     <header class="w-[1440px] h-[129px] pt-6 mx-auto ">
+     <header class="w-[1440px] h-[129px] pt-6 mx-auto hidden md:block">
         <nav class="flex justify-between items-center ">
             <!-- right side  -->
             <div class="flex gap-x-6 items-center">
@@ -75,6 +79,49 @@
           </ul>
         </div>
      </header>
+
+     <header class="py-3 px-4 flex justify-between items-center block md:hidden ">
+      <nav  class="flex  gap-x-3 items-center">
+        <div>
+          <button class="size-8 bg-[#EDEDED] flex justify-center items-center ">
+            <img src="./imges/header/Vector (9).png" class="size-5" alt="">
+          </button>
+        </div>
+        <div>
+          <h4 class="text-lg text-[#CB1B1B] font-DanaDemiBold">ایـــرانی  فرش</h4>
+        </div>
+      </nav>
+      <div class="flex items-center  gap-x-2">
+        <button class="bg-transparent border border-[#CB1B1B] text-[#CB1B1B] size-8 rounded-[8px] flex items-center justify-center">
+          <svg>
+            <use href="#shopping-cart"></use>
+          </svg>
+        </button>
+        <button class="bg-transparent border border-[#CB1B1B] text-[#CB1B1B] size-8 rounded-[8px] flex items-center justify-center">
+          <svg class="rotate-180">
+            <use href="#arrow-down"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <input type="text" class="text-sm w-full p-3 mx-auto rounded-xl text-[#717171] bg-[#EDEDED] mx-4 mb-3 block md:hidden" placeholder="جستجو فرش">
+    <!-- menu mobile -->
+     <div class="hidden">
+        <ul class="text-[#121212] text-base font-DanaMedium gap-6 flex-col">
+          <li>
+            <a href="">صفحه اصلی</a>
+          </li>
+          <li>
+            <a href="">وبلاگ</a>
+          </li>
+          <li>
+            <a href="">تماس با ما</a>
+          </li>
+          <li>
+            <a href="">درباره ما</a>
+          </li>
+        </ul>
+     </div>
      <hr>
 
      <main class="max-w-[1224px] mx-auto min-h-screen ">
