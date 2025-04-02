@@ -2,8 +2,8 @@
  this is a Cartpetweb  project with html && TailwindCss this projdct use the last technology and a standard coding and design figma and The goal of this project was standard coding
 
 # Installation
-npm  i
-npm run tailwindcss
+- npm  i
+- npm run tailwindcss
 
 # Features 
 - CleanCode
